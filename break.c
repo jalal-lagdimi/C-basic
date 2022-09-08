@@ -10,7 +10,7 @@ int main()
         printf("entree N%d: ",i);
         scanf("%d",&n);
         if(n<0)
-            continue;
+            continue; /*or break;*/
         s=s+n;
     }
     printf("la somme est: %.2f",s);

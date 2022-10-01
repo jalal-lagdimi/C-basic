@@ -7,7 +7,8 @@ int main()
     float s;
     s=0;
     for(i=1;i<=8;i++){
-        printf("entree N%d: ",i);
+        printf("entree N%d: ",i); 
+         printf("entree N%d: ",i); //cmnt
         scanf("%d",&n);
         if(n<0)
             continue; /*or break;*/
